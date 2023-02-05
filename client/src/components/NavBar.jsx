@@ -1,19 +1,23 @@
-import React from 'react'
+import { useState } from 'react'
 
+// IMPORTING ICONS (REACT-ICON LIBRARY)
 import { SiInstagram, SiLinkedin, SiGithub } from 'react-icons/si'
 import { GiHamburgerMenu } from 'react-icons/gi'
 
+// IMPORTING CSS STYLE SHEET
+import '../styling/navbar.css'
+
+
 function NavBar({ fixed }) {
-    const [navbarOpen, setNavbarOpen] = React.useState(false);
+    const [navbarOpen, setNavbarOpen] = useState(false);
     return (
-        <>
-            <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 mb-3
-                bg-gradient-to-tr from-primary via-primary-400 to-primary-300">
+        <div className='sticky top-0 z-50 w-full bg-clip-padding blur-background-filter bg-opacity-80 bg-primary '>
+            <nav className="relative flex flex-wrap items-center justify-between px-2 py-3">
                 <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
                     <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
                         <a
                             className="font-extrabold font-pf-dp text-3xl leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-f-primary"
-                            href="#pablo"
+                            href="/"
                         >
                             Loto's Portfolio
                         </a>
@@ -22,7 +26,7 @@ function NavBar({ fixed }) {
                             type="button"
                             onClick={() => setNavbarOpen(!navbarOpen)}
                         >
-                            <GiHamburgerMenu></GiHamburgerMenu>
+                            <GiHamburgerMenu className='text-f-primary md:text-3xl'></GiHamburgerMenu>
                         </button>
                     </div>
                     <div
@@ -35,7 +39,7 @@ function NavBar({ fixed }) {
                         <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
                             <li className="nav-item">
                                 <a
-                                    className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-f-primary hover:text-f-secondary"
+                                    className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-f-primary-200 hover:text-f-secondary"
                                     href="https://www.linkedin.com/in/iolvrslot0/"
                                     target="_blank"
                                 >
@@ -44,7 +48,7 @@ function NavBar({ fixed }) {
                             </li>
                             <li className="nav-item">
                                 <a
-                                    className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-f-primary hover:text-f-secondary"
+                                    className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-f-primary-200 hover:text-f-secondary"
                                     href="https://www.instagram.com/lotussseater/"
                                     target="_blank"
                                 >
@@ -53,7 +57,7 @@ function NavBar({ fixed }) {
                             </li>
                             <li className="nav-item">
                                 <a
-                                    className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-f-primary hover:text-f-secondary"
+                                    className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-f-primary-200 hover:text-f-secondary"
                                     href="https://github.com/IvanLotoPascalCase"
                                     target="_blank"
                                 >
@@ -64,7 +68,7 @@ function NavBar({ fixed }) {
                     </div>
                 </div>
             </nav>
-        </>
+        </div>
     );
 }
 

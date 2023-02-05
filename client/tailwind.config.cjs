@@ -13,7 +13,7 @@ module.exports = {
         'primary': '#42956A',
         'primary-400': '#5AA980',
         'primary-300': '#60AE86',
-        'primary-alt': '#51B380',
+        'primary-alt': '#B0E1B5',
         'secondary': '#D2D886',
         'secondary-alt': '#D2D886',
         'f-primary': '#F8FADB',
@@ -21,6 +21,9 @@ module.exports = {
         'f-secondary': '#4E4F43'
       }
     },
+    backgroundImage: {
+      'hero-background': "url('/src/assets/overlay.svg')",
+    }
   },
   plugins: [],
 }
