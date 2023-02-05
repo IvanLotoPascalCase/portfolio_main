@@ -11,6 +11,7 @@ module.exports = {
       },
       colors: {
         'primary': '#42956A',
+        'primary-skill': '#9ECAA3',
         'primary-400': '#5AA980',
         'primary-300': '#60AE86',
         'primary-alt': '#B0E1B5',
@@ -18,7 +19,7 @@ module.exports = {
         'secondary-alt': '#D2D886',
         'f-primary': '#F8FADB',
         'f-primary-200': '#FEFFF0',
-        'f-secondary': '#4E4F43'
+        'f-secondary': '#4E4F43',
       }
     },
     backgroundImage: {

@@ -5,15 +5,16 @@ const Hero = () => {
     return (
 
 
-        <div className='flex justify-center bg-primary-alt top-0 relative gap-10 hero-background'>
-            <div className='flex items-center justify-center flex-col text-center pb-6' >
-                <h1 className='text-8xl font-bold font-pf-dp text-f-primary py-10'>
-                    Iván "Loto" Olivares
+        <div className='flex justify-center bg-primary-alt top-0 relative gap-10 bg-hero-background bg-cover h-[1000px]'>
+            <div className='flex items-center justify-center flex-col text-center pb-4 mt-10' >
+                <h1 className='text-8xl font-bold font-pf-dp text-f-primary pt-10'>
+                    Iván Olivares
                 </h1>
-                <p className='text-2xl font-normal italic text-f-secondary py-2'>Front-End Developer and Software Engineer</p>
-            </div>
-            <div className='flex items-center justify-center flex-col text-center pb-6'>
-                <img className='object-scale-down h-[60%] w-100 py-10' src={profilePhoto} alt="Me" />
+                <h4 className='text-2xl font-bold font-pf-dp text-f-primary-200 py-5'>
+                    "loto"
+                </h4>
+                <p className='text-2xl font-semibold italic text-f-secondary pb-2'>Front-End Developer and Software Engineer.</p>
+                <p className='text-2xl font-normal italic text-f-secondary pb-2'>Chilean Developer, 24 years old from Valparaiso.</p>
             </div>
         </div>
     )
