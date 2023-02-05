@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { SiInstagram, SiLinkedin, SiGithub } from 'react-icons/si'
+import { GiHamburgerMenu } from 'react-icons/gi'
 
 function NavBar({ fixed }) {
     const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -21,7 +22,7 @@ function NavBar({ fixed }) {
                             type="button"
                             onClick={() => setNavbarOpen(!navbarOpen)}
                         >
-                            <i className="fas fa-bars"></i>
+                            <GiHamburgerMenu></GiHamburgerMenu>
                         </button>
                     </div>
                     <div
