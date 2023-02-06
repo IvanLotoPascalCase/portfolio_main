@@ -10,7 +10,7 @@ const AboutMe = () => {
     return (
         <div className="component-about-me">
             <img className="svg-icon" alt="" loading="eager" src={bgAboutMe} />
-            <main className="aboutmecontent">
+            <main className="aboutmecontent flex justify-center">
                 <img className="img-1-icon" alt="" src={article1} />
                 <img className="img-2-icon" alt="" src={article3} />
                 <img className="img-3-icon" alt="" src={article2} />
