@@ -1,5 +1,5 @@
 import React from 'react'
-import profilePhoto from '../assets/profile.jpg'
+import profilePhoto from '../assets/profile.png'
 
 const Hero = () => {
     return (
@@ -16,7 +16,7 @@ const Hero = () => {
                     <p className='text-2xl font-normal italic text-f-secondary pb-2'>Chilean Developer, 24 years old from Valparaíso.</p>
                 </div>
                 <div className='flex rounded-lg items-start justify-center flex-col text-center pb-4'>
-                    <img className='object-cover w-[50%]' src={profilePhoto} alt="Me" />
+                    <img className='object-cover w-[90%]' src={profilePhoto} alt="Me" />
                 </div>
             </div>
         </div>
