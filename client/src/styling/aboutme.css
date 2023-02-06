@@ -23,17 +23,20 @@
 .img-4-icon {
     top: 4.19rem;
     left: 9.88rem;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.25);
 }
 
 .img-3-icon,
 .img-4-icon {
     top: 24.69rem;
     left: 26.63rem;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.25);
 }
 
 .img-4-icon {
     top: 5.69rem;
     left: 28.69rem;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.25);
 }
 
 .ivn-alexis-oiivares {
@@ -58,7 +61,7 @@
     font-size: 1.4rem;
     font-family: Inter;
     font-weight: 100;
-    color: #f8fadb;
+    color: #FEFFF0;
     text-align: left;
 }
 
