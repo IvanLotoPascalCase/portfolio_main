@@ -1,18 +1,20 @@
 import article1 from '../assets/article1.jpg'
 import article2 from '../assets/article2.jpg'
 import article3 from '../assets/article3.jpg'
+import article4 from '../assets/article4.jpeg'
+import bgAboutMe from '../assets/backgroundAboutMe.png'
 
 import "../styling/aboutme.css";
 
 const AboutMe = () => {
     return (
         <div className="component-about-me">
-            <img className="svg-icon" alt="" loading="eager" src="../svg.svg" />
+            <img className="svg-icon" alt="" loading="eager" src={bgAboutMe} />
             <main className="aboutmecontent">
                 <img className="img-1-icon" alt="" src={article1} />
                 <img className="img-2-icon" alt="" src={article3} />
                 <img className="img-3-icon" alt="" src={article2} />
-                <img className="img-4-icon" alt="" src={article2} />
+                <img className="img-4-icon" alt="" src={article4} />
                 <h3 className="ivn-alexis-oiivares">Iván Alexis OIivares Olavarría</h3>
                 <p className="hi-im-ivn-container">
                     <span className="hi-im-ivn">{`Hi, I’m Iván, young man of 24 years old and I’ve been `}</span>

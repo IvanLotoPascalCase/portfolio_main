@@ -66,9 +66,9 @@
     position: absolute;
     top: 16.25rem;
     left: 9.31rem;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #b7d5ae;
-    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.25);
     width: 101.38rem;
     height: 45.81rem;
     overflow: hidden;
@@ -104,7 +104,6 @@
 
 .titlediv {
     position: absolute;
-    top: 2rem;
     left: 42.31rem;
     width: 36.5rem;
     height: 12.38rem;
