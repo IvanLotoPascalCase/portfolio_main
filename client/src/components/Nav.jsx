@@ -8,7 +8,7 @@ import { GiHamburgerMenu } from 'react-icons/gi'
 import '../styling/navbar.css'
 
 
-function NavBar({ fixed }) {
+function Nav({ fixed }) {
     const [navbarOpen, setNavbarOpen] = useState(false);
     return (
         <div className='sticky top-0 z-50 w-full bg-clip-padding blur-background-filter bg-opacity-80 bg-primary '>
@@ -72,4 +72,4 @@ function NavBar({ fixed }) {
     );
 }
 
-export default NavBar
+export default Nav
