@@ -1,11 +1,12 @@
 import React from "react";
 import curriculum from "../assets/curriculum.pdf";
+import resume from "../assets/resume.pdf";
 
 const CTA = () => {
   return (
     <div className="grid grid-rows-1 grid-flow-col gap-1 py-6 w-20">
       <div className="px-1">
-        <a href="#contact" className="btn btn-primary">
+        <a href={resume} download className="btn btn-primary">
           Resumé
         </a>
       </div>

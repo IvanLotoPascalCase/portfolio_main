@@ -7,22 +7,22 @@ const Hero = () => {
   return (
     <div className="grid grid-row-2 grid-flow-col">
       {/* SECCION 1 HERO (INFO) */}
-      <div className="py-[15vh] bg-slate-500">
+      <div className="py-[15vh] ">
         <div className="container header__container">
-          <h2 className="text-3xl">Hi, my name is</h2>
+          <h3 className="text-3xl text-neutral-500">Hi, my name is</h3>
           <div>
-            <h1 className="text-8xl">Iván Alexis Olivares</h1>
+            <h1 className="text-8xl text-neutral-600">Iván Alexis Olivares</h1>
           </div>
           <div className="py-1">
-            <h2 className="text-white text-3xl">Front-End Developer</h2>
+            <h1 className="text-white text-4xl">Front-End Developer</h1>
           </div>
           <CTA />
         </div>
       </div>
       {/* SECCION 2 HERO (FOTO) */}
-      <div className="md:col-span-4 flex items-center justify-center p-20 bg-orange-800">
+      {/* <div className="md:col-span-4 flex items-center justify-center p-20 ">
         <img src={mainPhoto} alt="me" className="w-[80%]" />
-      </div>
+      </div> */}
     </div>
   );
 };
