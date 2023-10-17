@@ -7,6 +7,7 @@ import Services from "./components/Services.jsx";
 import Portfolio from "./components/Portfolio.jsx";
 import Contact from "./components/Contact.jsx";
 import Footer from "./components/Footer.jsx";
+import CardFavorites from "./components/CardSection/CardFavorites.jsx";
 
 // APLICACIÓN BASE
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <Nav />
       <Hero />
       <About />
+      <CardFavorites />
       <Experience />
       <Services />
       <Portfolio />
