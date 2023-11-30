@@ -4,14 +4,18 @@ import resume from "../assets/resume.pdf";
 
 const CTA = () => {
   return (
-    <div className="grid grid-rows-1 grid-flow-col gap-1 py-6 w-20">
+    <div className="grid grid-rows-1 grid-flow-col gap-1 py-2 w-20">
       <div className="px-1">
-        <a href={resume} download className="btn btn-primary">
+        <a
+          href={resume}
+          download
+          className="btn btn-primary rounded-md text-xl"
+        >
           Resumé
         </a>
       </div>
       <div className="px-1">
-        <a href={curriculum} download className="btn">
+        <a href={curriculum} download className="btn rounded-md text-xl">
           Spanish Version
         </a>
       </div>

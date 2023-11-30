@@ -13,7 +13,7 @@ function Nav({ fixed }) {
     <div className="sticky top-0 z-50 w-full bg-clip-padding blur-background-filter bg-opacity-80 bg-primary ">
       <nav className="relative flex flex-wrap items-center justify-between px-2 py-3">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
-          <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+          <div className="relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <a
               className="font-extrabold font-pf-dp text-3xl leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-f-primary"
               href="/"
@@ -42,7 +42,7 @@ function Nav({ fixed }) {
                   href="https://www.linkedin.com/in/iolvrslot0/"
                   target="_blank"
                 >
-                  <SiLinkedin className="text-lg"></SiLinkedin>{" "}
+                  <SiLinkedin className="text-lg"></SiLinkedin>
                   <span className="ml-2">LinkedIn</span>
                 </a>
               </li>
@@ -62,7 +62,7 @@ function Nav({ fixed }) {
                   href="https://github.com/IvanLotoPascalCase"
                   target="_blank"
                 >
-                  <SiGithub className="text-lg"></SiGithub>{" "}
+                  <SiGithub className="text-lg"></SiGithub>
                   <span className="ml-2">GitHub</span>
                 </a>
               </li>
