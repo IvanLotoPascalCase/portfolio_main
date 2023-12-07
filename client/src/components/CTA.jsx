@@ -11,12 +11,12 @@ const CTA = () => {
           download
           className="btn btn-primary rounded-md text-xl"
         >
-          Resumé
+          Resumé (ENG)
         </a>
       </div>
       <div className="px-1">
         <a href={curriculum} download className="btn rounded-md text-xl">
-          Spanish Version
+          Curriculum Vitae (ESP)
         </a>
       </div>
     </div>
