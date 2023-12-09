@@ -7,8 +7,9 @@ import Services from "./components/Services.jsx";
 import Portfolio from "./components/Portfolio.jsx";
 import Contact from "./components/Contact.jsx";
 import Footer from "./components/Footer.jsx";
-import CardFavorites from "./components/CardSection/CardFavorites.jsx";
 import Skills from "./components/Skills.jsx";
+import CardFavorites from "./components/CardSection/CardFavorites.jsx";
+import ScrollToTopButton from "./components/Reuse/ScrollToTopButton.jsx";
 
 // APLICACIÓN BASE
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
       <Portfolio />
       <Contact />
       <Footer />
+      <ScrollToTopButton />
     </div>
   );
 };

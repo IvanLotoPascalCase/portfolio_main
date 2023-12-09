@@ -5,7 +5,7 @@ import { SiInstagram, SiLinkedin, SiGithub } from "react-icons/si";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 // IMPORTING CSS STYLE SHEET
-import "../../styling/navbar.css";
+import "../../styling/blurryfilter.css";
 
 function Nav({ fixed }) {
   const [navbarOpen, setNavbarOpen] = useState(false);
